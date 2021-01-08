@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Gam3Zone</string>
+    <string name="tab_text_1">Playstation</string>
+    <string name="tab_text_2">Xbox</string>
+    <string name="tab_text_3">Nintendo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

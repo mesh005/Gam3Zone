@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/feedFragment">
+
+    <fragment
+        android:id="@+id/exploreFragment"
+        android:name="com.example.gam3zone.exploreFragment"
+        android:label="Explore"
+        tools:layout="@layout/fragment_explore" />
+    <fragment
+        android:id="@+id/savedFragment"
+        android:name="com.example.gam3zone.savedFragment"
+        android:label="Saved"
+        tools:layout="@layout/fragment_saved" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.gam3zone.profileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/feedFragment"
+        android:name="com.example.gam3zone.feedFragment"
+        android:label="fragment_feed"
+        tools:layout="@layout/fragment_feed" />
+
+</navigation>
