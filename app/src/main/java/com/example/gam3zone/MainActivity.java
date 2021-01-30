@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(myToolbar);
 
 
+
+
         //Configure bottomNavBar
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigationView);
         NavController navController = Navigation.findNavController(this,  R.id.fragment);
