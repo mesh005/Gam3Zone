@@ -1,16 +1,9 @@
-package com.example.gam3zone;
-
-import android.content.Context;
+package com.example.gam3zone.MainUI;
 
 import androidx.annotation.Nullable;
-import androidx.annotation.StringRes;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
-
-import com.example.gam3zone.NintendoFragment;
-import com.example.gam3zone.PlaystationFragment;
-import com.example.gam3zone.XboxFragment;
 
 import java.util.ArrayList;
 import java.util.List;

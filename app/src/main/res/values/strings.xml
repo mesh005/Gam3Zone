@@ -3,5 +3,11 @@
     <string name="tab_text_1">Playstation</string>
     <string name="tab_text_2">Xbox</string>
     <string name="tab_text_3">Nintendo</string>
+    <string name="saved_tab_1">Saved Items</string>
+    <string name="saved_tab_2">History</string>
+    <string name="games_tab_1">Top</string>
+    <string name="games_tab_2">Popular</string>
+    <string name="games_tab_3">New</string>
     <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

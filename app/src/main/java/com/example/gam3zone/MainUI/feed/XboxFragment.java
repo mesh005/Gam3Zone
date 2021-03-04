@@ -1,4 +1,4 @@
-package com.example.gam3zone;
+package com.example.gam3zone.MainUI.feed;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -17,6 +17,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.example.gam3zone.R;
+
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 import org.xmlpull.v1.XmlPullParserFactory;
@@ -27,11 +29,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link XboxFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class XboxFragment extends Fragment {
 
     ListView lvRss;

@@ -1,4 +1,4 @@
-package com.example.gam3zone;
+package com.example.gam3zone.MainUI.feed;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -17,6 +17,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.example.gam3zone.R;
+
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 import org.xmlpull.v1.XmlPullParserFactory;
@@ -27,23 +29,19 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 
-public class NintendoFragment extends Fragment {
-
+public class PlaystationFragment extends Fragment {
     ListView lvRss;
     ArrayList<String> titles;
     ArrayList<String> links;
 
-
-    public NintendoFragment() {
+    public PlaystationFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_nintendo, container, false);
+        return inflater.inflate(R.layout.fragment_playstation, container, false);
     }
 
     @Override
@@ -66,7 +64,7 @@ public class NintendoFragment extends Fragment {
             }
         });
 
-        new NintendoFragment.ProcessInBackground().execute();
+        new ProcessInBackground().execute();
 
     }
 
@@ -119,6 +117,7 @@ public class NintendoFragment extends Fragment {
 
                 //Extract data
                 while (eventType != XmlPullParser.END_DOCUMENT) {
+
                     if (eventType == XmlPullParser.START_TAG) {
                         if (xpp.getName().equalsIgnoreCase("item")) {
                             insideItem = true;
@@ -159,11 +158,10 @@ public class NintendoFragment extends Fragment {
             progressDialog.dismiss();
         }
     }
-
-
-
-
-
-
-
 }
+
+
+
+
+
+
